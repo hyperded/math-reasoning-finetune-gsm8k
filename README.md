@@ -185,7 +185,7 @@ print(f"Accuracy: {correct / len(dataset) * 100:.2f}%")
 
 ---
 
-## 💡 Recommended Next Steps
+## 💡Next Steps
 
 1. **Left-Padding Alignment**: Ensure `tokenizer.padding_side = 'left'` is explicitly set during batched generation to eliminate padding artifacts in causal generation.
 2. **Context Budget for DPO**: Increase evaluation `max_new_tokens` (e.g., to 512 or 1024) and support `\boxed{}` regex parsing when evaluating DPO models exhibiting verbose deliberative reasoning.
